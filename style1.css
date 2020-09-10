@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    background-color: #fafafa;
+}
+
+.header{
+    
+    height: 4rem;
+    line-height: 4rem;
+}
+.header-left{
+    padding-left: 0;
+}
+.header-right{
+    padding-right: 0;
+}
+.header>div:first-child{  
+    text-align: left;     
+}
+.header>div:first-child>p{
+    margin: 0;
+    font-size: 1.3rem;
+    color: #29B078;
+}
+.header>div:last-child{
+    text-align: right;
+}
+.header>div:last-child>img{
+    padding-left: 1rem;
+}
+.nav-item{
+    margin-bottom: 0;
+    border: none;
+    background-color: #29B078;   
+}
+.nav-item>div{
+    padding: 0;
+}
+.nav-item img{
+    padding-top: 2rem;
+}
+
+.navbar-default .navbar-nav>li>a{
+    height: 9rem;
+    padding: 1rem 2.5rem;
+    line-height: 7.2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    
+} 
+
+.navbar-default .navbar-nav li a:hover{
+    border-bottom: .3rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    
+}
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    border-bottom: .3rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    
+}
+.title .one{
+    padding: 2rem 0;
+    border-bottom: .1rem solid #d0d6d9;
+}
+.title .one>h4>a{
+    text-decoration: none;
+    color: black;
+}
+.title .one span{
+    color: #29B078;
+}
+.title .two{
+    
+    padding: 1.5rem 0;
+    border-bottom: .2rem solid #edf1f2;
+}
+.title .two ul{
+    margin-bottom: 0;
+}
+.title .two span{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.title .two a{
+    padding: .3rem;
+    font-size: 1.2rem;
+    color: black;
+}
+.title .two a:visited{
+    text-decoration: none;
+    background-color: #29B078;
+}
+.title .two a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #29B078;
+}
+
+
+.content .content-title{
+    height: 8rem;
+    padding: 2rem 0;
+    border-bottom: .1rem solid #d0d6d9;  
+}
+.content-main{
+    padding-top: 4rem;
+
+}
+.content .section{
+    box-shadow:0 0 2px 1px #e2e2e2;
+    padding: 0;
+    background-color: #fff;
+    
+}
+.element{
+    display:none;
+    width: 96.5%;
+    height: 43.6rem;
+    text-align: center;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.7);
+    
+}
+.element-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.element-middle{
+    position: absolute;
+    top: 0;
+    left: 0.75rem;
+}
+.element-right{
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+}
+.element>div{
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 4.5rem;
+}
+
+.element p{
+    padding-top: 3rem;
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.content-left:hover .element,.content-middle:hover .element,.content-right:hover .element{
+    display: block;
+}
+.content .section>div:nth-child(1){
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    border-bottom: .1rem solid #edf1f2;
+}
+.content .section .one{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 2rem 0;
+}
+.content .section .one>div{
+    padding-left: 1rem;
+}
+.content .section .one p{
+    word-break: break-all;
+    font-size: 1.3rem;
+}
+
+
+.content .section .two,.content .section .three,.content .section .five{
+    display: flex;
+    height: 4rem;
+    border-bottom: .1rem solid #edf1f2;
+    line-height: 4rem;
+}
+.content .section .two>div:first-child,.three>div:first-child{
+    width: 50%;
+    border-right: .1rem solid #edf1f2;
+}
+.content .section .two p{
+    display: inline-block;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.content .section .two img{
+    padding-right: 1rem;
+    vertical-align: text-bottom;
+}
+.content .section .three div{
+    display: flex;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.content .section .three p:first-child{
+    padding-left: 1rem;
+}
+.content .section .three p:last-child{
+    padding-left: 1.5rem;
+    color: black;
+}
+.content .section .three p>span{
+    color: red;
+}
+.content .section .four{
+    display: flex;
+    font-size: 1.2rem;
+    color: #999999;
+    
+}
+.content .section .four>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border-bottom: .1rem solid #edf1f2;
+}
+.content .section .four>div:first-child>p{
+    margin: 0;
+}
+.content .section .four>div:last-child{
+    width: 60%;
+    border-left: .1rem solid #edf1f2;  
+}
+.content .section .four>div:last-child>p{
+    height: 3.2rem;
+    margin: 0;
+    padding: 0 1rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .1rem solid #edf1f2;
+    color: black;
+}
+.content .section .five{
+    font-size: 1.2rem;
+}
+.content .section .five>p{
+    padding-left: 1rem;
+    font-weight: 600;
+}
+.content .section .five>p>span{
+    color: red;
+}
+.content .section .six{
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.15rem;
+    color: #999999;
+}
+.content-left{
+    padding-left: 0;
+    position: relative;
+}
+.content-middle{
+    padding: 0 .75rem;
+    position: relative;
+}
+.content-right{
+    padding-right: 0;
+    position: relative;
+}
+.footer{
+    margin-top: 20rem;
+    background-color: #29B078;
+    
+}
+.footer h5{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.footer ul{
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+    list-style: none;
+}
+.footer ul>li>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: .6rem;
+}
+.footer ul>li>a:hover{
+    border-bottom: 1px solid #fff;
+}
+.footer>div:first-child>div{
+    padding-top: 2rem;
+    
+}
+.footer .one>h5{
+    padding-bottom: 6.5rem;
+}
+.footer .two>h5{
+    padding-bottom: 2rem;
+}
+.footer .three{
+    text-align: right;
+}
+.footer>div:last-child{
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border-top: 1px solid #32c086;
+}
+.footer>div:last-child p{
+    padding-top: .5rem;
+    text-align: center;
+}

@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    background-color: #fafafa;
+}
+.header{
+    height: 4rem;
+    line-height: 4rem;
+}
+.header-left{
+    padding-left: 0;
+}
+.header-right{
+    padding-right: 0;
+}
+.header>div:first-child{  
+    text-align: left;     
+}
+.header>div:first-child>p{
+    margin: 0;
+    font-size: 1.3rem;
+    color: #29B078;
+}
+.header>div:last-child{
+    text-align: right;
+}
+.header>div:last-child>img{
+    padding-left: 1rem;
+}
+.nav-item{
+    margin-bottom: 0;
+    border: none;
+    background-color: #29B078;   
+}
+.nav-item>div{
+    padding: 0;
+}
+.nav-item img{
+    padding-top: 2rem;
+}
+
+.navbar-default .navbar-nav>li>a{
+    height: 9rem;
+    padding: 1rem 2.5rem;
+    line-height: 7.2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    
+} 
+
+.navbar-default .navbar-nav li a:hover{
+    border-bottom: .3rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    
+}
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    border-bottom: .3rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    
+}
+
+.content-img{
+    padding: 0;
+    height: 24.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    color: #fff;
+    background: url(img/战略合作企业_02.png) center no-repeat;
+    background-size: cover;
+}
+.content-img>div{
+    padding-right: 2rem;
+    padding-left: 20rem;
+    text-align: right;
+    
+}
+.content-img>div>p:first-child{
+    font-size: 3.5rem;
+}
+.content-img>div>p:last-child{
+    font-size: 1.5rem;
+}
+.content-img>p{
+    font-size: 4.5rem;
+}
+
+.main-nav{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+.main-nav>p>a{
+    text-decoration: none;
+    color: black;
+}
+.main-left{
+    padding-left: 0;
+    font-size: 1.3rem;
+    
+    
+}
+.main-left p{
+    height: 6rem;
+    line-height: 6rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+
+.main-left>div{
+    border-radius: 0.5rem;
+    border: 1px solid #e6e6e6;
+    box-shadow: 1px 1px 1px #f6f6f6;
+    background-color: #fff;
+    
+}
+.main-left ul{
+    margin: 0;
+    padding-bottom: 3rem;
+    text-align: left;
+    
+}
+.main-left li{
+    padding-left: 8rem;
+    padding-top: 2.5rem;
+    list-style-type: none;
+    background: url(img/战略合作企业_03.png) no-repeat 6.5rem 2.9rem;
+    
+}
+.main-left li:hover{
+    
+    background: url(img/战略合作企业_06.png) no-repeat 6.5rem 2.9rem;
+}
+.main-left li>a{
+    text-decoration: none;
+    color: #29B078;
+}
+.main-left li>a:hover{
+    color: #ff650e;
+}
+.main-right{
+    padding: 0;
+    border-radius: 0.5rem;
+    border: 1px solid #e6e6e6;
+    box-shadow: 1px 1px 1px #f6f6f6;
+    color: #999999;
+    background-color: #fff;
+    font-size: 1.3rem;
+    
+}
+.main-right>div{
+    display: flex;
+    align-items: center;
+    padding: 0 7rem;
+    height: 15rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-right>div>p{
+    margin-bottom: 0;
+    line-height: 2rem;
+}
+.main-right>section{
+    padding: 3rem 7rem 12rem 7rem;
+    text-indent: 2rem;
+}
+.main-right>section>p{
+    margin: 0;
+    padding: 1rem 0;
+    line-height: 2.2rem;
+    text-align: justify;
+    
+}
+.footer{
+    margin-top: 20rem;
+    background-color: #29B078;
+    
+}
+.footer h5{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.footer ul{
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+    list-style: none;
+}
+.footer ul>li>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: .6rem;
+}
+.footer ul>li>a:hover{
+    border-bottom: 1px solid #fff;
+}
+.footer>div:first-child>div{
+    padding-top: 2rem;
+    
+}
+.footer .one>h5{
+    padding-bottom: 6.5rem;
+}
+.footer .two>h5{
+    padding-bottom: 2rem;
+}
+.footer .three{
+    text-align: right;
+}
+
+.footer>div:last-child{
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border-top: 1px solid #32c086;
+}
+.footer>div:last-child p{
+    padding-top: .5rem;
+    text-align: center;
+}
